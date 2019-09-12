@@ -69,10 +69,10 @@ if(p1<1.5){
   return 0;
 }
 printf("p value  Win Percentage  Predicted Wins  Predicted Loss  Error\n");
-printf("2.00     %.2f              %.0lf         %.0lf           %.0lf   \n",winpercentage1,predictW,predictL,error);
-printf("1.83     %.2f              %.0lf         %.0lf           %.0lf   \n",winpercentage2,predictW1,predictL1,error1);
-printf("%.2f     %.2f              %.0lf         %.0lf           %.0lf   \n",p1,winpercentage3,predictW2,predictL2,error2);
-printf("%.2f     %.2f              %.0lf         %.0lf           %.0lf   \n",p2,winpercentage4,predictW3,predictL3,error3);
+printf("2.00     %.2f              %.0lf            %.0lf           %.0lf   \n",winpercentage1,predictW,predictL,error);
+printf("1.83     %.2f              %.0lf            %.0lf           %.0lf   \n",winpercentage2,predictW1,predictL1,error1);
+printf("%.2f     %.2f              %.0lf            %.0lf           %.0lf   \n",p1,winpercentage3,predictW2,predictL2,error2);
+printf("%.2f     %.2f              %.0lf            %.0lf           %.0lf   \n",p2,winpercentage4,predictW3,predictL3,error3);
 
 
 }
